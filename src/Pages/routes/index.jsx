@@ -2,7 +2,7 @@ import React from "react";
 import { useRoutes, BrowserRouter } from "react-router-dom";
 //importar las paginas
 import { App } from "../../Pages/side-bar";
-// import { Masonrys } from "../../Pages/Masonry";
+import { Masonrys } from "../../Pages/Masonry";
 import { Login } from "../../Pages/login";
 import { Quill } from "../../Pages/Quill";
 import {HerramientaDeRecorte} from "../../Pages/HerramientaDeRecortes";
@@ -19,11 +19,11 @@ function Rutas() {
         element: <App />,
       },
 
-      // {
-      //   path: "/masonry",
+      {
+        path: "/masonry",
 
-      //   element: <Masonrys />,
-      // },
+        element: <Masonrys />,
+      },
       {
         path: "/login",
 
